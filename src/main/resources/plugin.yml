@@ -1,0 +1,17 @@
+name: PvPTournament
+version: '${version}'
+main: com.example.pvptournament.PvPTournamentPlugin
+api-version: '1.21'
+description: Multi-mode PvP tournament & casual matchmaking plugin
+author: YourName
+
+load: POSTWORLD
+softdepend: [PlaceholderAPI, WorldEdit, FastAsyncWorldEdit]
+
+permissions:
+  pvpt.admin:
+    description: Full admin access (arenas, kits, tournaments)
+    default: op
+  pvpt.use:
+    description: Basic usage (join queue, select kits)
+    default: true

@@ -1,0 +1,16 @@
+# PvPTournament configuration
+
+# Default countdown (seconds) before a match begins once min-players is reached,
+# used as a fallback when an arena file doesn't define its own.
+default-countdown-seconds: 15
+
+# SkyWars border shrink settings (used by SkyWarsMode unless overridden per-arena later)
+skywars:
+  border-shrink-start-seconds: 180
+  border-shrink-target-size: 20.0
+  border-shrink-duration-seconds: 120
+  chest-min-items: 3
+  chest-max-items: 6
+
+# Messages prefix
+prefix: '&6[PvPT]&r '
